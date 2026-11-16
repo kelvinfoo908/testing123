@@ -1,0 +1,2848 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin Foo (REN63933) | Landed Property Specialist — Teluk Intan, Langkap & Kampar</title>
+  <meta name="description" content="Trusted landed property advisory in Teluk Intan, Langkap & Kampar by Kelvin Foo (REN63933). Helping first-house buyers, growing families, and property investors with transparent guidance and Malaysia home loan planning." />
+
+  <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================================
+       DESIGN TOKENS & CUSTOM VARIABLES (EDITABLE BRAND THEME)
+       ========================================================================== */
+    :root {
+      --bg-primary: #FFFFFF;
+      --bg-secondary: #F8F9FA;
+      --bg-tertiary: #F1F3F5;
+      --text-primary: #0A0A0A;
+      --text-secondary: #4B5563;
+      --text-muted: #6B7280;
+      --accent-black: #0A0A0A;
+      --accent-black-hover: #262626;
+      --accent-whatsapp: #25D366;
+      --accent-whatsapp-dark: #1EBE5D;
+      --border-light: #E5E7EB;
+      --border-medium: #D1D5DB;
+      --shadow-xs: 0 1px 2px rgba(10, 10, 10, 0.04);
+      --shadow-sm: 0 4px 14px rgba(10, 10, 10, 0.05);
+      --shadow-md: 0 12px 30px rgba(10, 10, 10, 0.07);
+      --shadow-lg: 0 22px 48px rgba(10, 10, 10, 0.10);
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 24px;
+      --radius-full: 9999px;
+      --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --container-max: 1200px;
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ==========================================================================
+       RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-primary);
+      background-color: var(--bg-primary);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+      color: var(--text-primary);
+      line-height: 1.22;
+      letter-spacing: -0.02em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .section {
+      padding: 5.5rem 0;
+    }
+
+    .section-alt {
+      background-color: var(--bg-secondary);
+      border-top: 1px solid var(--border-light);
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    /* ==========================================================================
+       TYPOGRAPHY & BADGE UTILITIES
+       ========================================================================== */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-primary);
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
+      padding: 0.4rem 0.9rem;
+      border-radius: var(--radius-full);
+      margin-bottom: 1.15rem;
+    }
+
+    .eyebrow .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--accent-black);
+    }
+
+    .eyebrow .dot-green {
+      background-color: var(--accent-whatsapp);
+      box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.2);
+    }
+
+    .section-header {
+      max-width: 680px;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-header.center {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: clamp(1.85rem, 3.2vw, 2.6rem);
+      font-weight: 700;
+      margin-bottom: 0.9rem;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    /* ==========================================================================
+       BUTTONS
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.9rem 1.65rem;
+      border-radius: var(--radius-full);
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-black);
+      color: #FFFFFF;
+      box-shadow: 0 8px 20px rgba(10, 10, 10, 0.16);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--accent-black-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(10, 10, 10, 0.22);
+    }
+
+    .btn-whatsapp {
+      background-color: var(--accent-black);
+      color: #FFFFFF;
+      border: 1px solid var(--accent-black);
+      box-shadow: 0 8px 22px rgba(10, 10, 10, 0.14);
+    }
+
+    .btn-whatsapp .wa-dot {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: var(--accent-whatsapp);
+      color: #0A0A0A;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: #1A1A1A;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(10, 10, 10, 0.22);
+    }
+
+    .btn-whatsapp-solid {
+      background-color: var(--accent-whatsapp);
+      color: #062812;
+      font-weight: 700;
+      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.28);
+    }
+
+    .btn-whatsapp-solid:hover {
+      background-color: var(--accent-whatsapp-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(37, 211, 102, 0.36);
+    }
+
+    .btn-outline {
+      background-color: #FFFFFF;
+      color: var(--text-primary);
+      border: 1.5px solid var(--border-medium);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent-black);
+      background-color: var(--bg-secondary);
+      transform: translateY(-2px);
+    }
+
+    .btn-sm {
+      padding: 0.65rem 1.2rem;
+      font-size: 0.86rem;
+    }
+
+    .btn-full {
+      width: 100%;
+    }
+
+    /* ==========================================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================================== */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-light);
+      transition: var(--transition);
+    }
+
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .brand-monogram {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: var(--accent-black);
+      color: #FFFFFF;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.03em;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.05rem;
+      line-height: 1.15;
+      color: var(--text-primary);
+    }
+
+    .brand-meta {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.85rem;
+    }
+
+    .nav-links a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: color 0.2s ease;
+      position: relative;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .mobile-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      border: 1px solid var(--border-light);
+      align-items: center;
+      justify-content: center;
+      color: var(--text-primary);
+    }
+
+    /* Mobile Drawer */
+    .mobile-menu {
+      display: none;
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--border-light);
+      padding: 1.25rem 1.5rem 1.75rem;
+    }
+
+    .mobile-menu.open {
+      display: block;
+    }
+
+    .mobile-menu-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .mobile-menu-links a {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      padding: 0.35rem 0;
+    }
+
+    /* Sticky Mobile Bottom WhatsApp Bar */
+    .mobile-sticky-bar {
+      display: none;
+    }
+
+    /* ==========================================================================
+       2. HERO SECTION
+       ========================================================================== */
+    .hero {
+      padding: 4.5rem 0 5.5rem;
+      background: radial-gradient(circle at 88% 15%, #F3F4F6 0%, #FFFFFF 52%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-size: clamp(2.25rem, 4.4vw, 3.45rem);
+      font-weight: 800;
+      line-height: 1.14;
+      margin-bottom: 1.35rem;
+      letter-spacing: -0.03em;
+    }
+
+    .hero-title span {
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-title span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 4px;
+      width: 100%;
+      height: 10px;
+      background: #E5E7EB;
+      z-index: -1;
+      border-radius: 4px;
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      max-width: 580px;
+      margin-bottom: 2rem;
+      line-height: 1.75;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin-bottom: 2.75rem;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .stat-item h3 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .stat-item p {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* Agent Profile Card */
+    .agent-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .agent-card-visual {
+      background: linear-gradient(145deg, #111111 0%, #262626 100%);
+      padding: 2rem 2rem 0;
+      color: #FFFFFF;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .agent-card-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.25rem;
+    }
+
+    .agent-portrait-placeholder {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .agent-card-body {
+      padding: 1.75rem 2rem 2rem;
+    }
+
+    .agent-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .agent-card-name {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .agent-card-role {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .ren-pill {
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-sm);
+      white-space: nowrap;
+    }
+
+    .agent-specs {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      padding: 1.15rem 0;
+      border-top: 1px solid var(--border-light);
+      border-bottom: 1px solid var(--border-light);
+      margin-bottom: 1.35rem;
+    }
+
+    .agent-spec-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.88rem;
+      gap: 0.75rem;
+    }
+
+    .agent-spec-label {
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .agent-spec-value {
+      font-weight: 600;
+      color: var(--text-primary);
+      text-align: right;
+    }
+
+    /* ==========================================================================
+       3. COVERAGE AREAS (TELUK INTAN, LANGKAP & KAMPAR)
+       ========================================================================== */
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .area-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+
+    .area-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent-black);
+    }
+
+    .area-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+    }
+
+    .area-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.3rem 0.75rem;
+      background: var(--bg-tertiary);
+      border-radius: var(--radius-full);
+      color: var(--text-primary);
+    }
+
+    .area-number {
+      font-family: var(--font-heading);
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .area-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-bottom: 0.7rem;
+    }
+
+    .area-desc {
+      font-size: 0.94rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.35rem;
+      line-height: 1.65;
+    }
+
+    .area-highlights {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1.75rem;
+      padding-top: 1.15rem;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .area-highlights li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.55rem;
+      font-size: 0.87rem;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .check-icon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-black);
+      color: #FFFFFF;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       4. IDEAL CLIENTS (TAILORED SOLUTIONS)
+       ========================================================================== */
+    .clients-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .client-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 2.15rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+
+    .client-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent-black);
+    }
+
+    .client-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: var(--accent-black);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.4rem;
+    }
+
+    .client-title {
+      font-size: 1.32rem;
+      font-weight: 700;
+      margin-bottom: 0.65rem;
+    }
+
+    .client-desc {
+      font-size: 0.94rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.35rem;
+    }
+
+    .client-perks {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .client-perks li {
+      font-size: 0.87rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .client-perks li::before {
+      content: "•";
+      font-weight: 800;
+      color: var(--accent-black);
+      font-size: 1.1rem;
+    }
+
+    /* ==========================================================================
+       5. FEATURED LANDED LISTINGS SHOWCASE (EDITABLE SAMPLES)
+       ========================================================================== */
+    .listings-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .listing-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+    }
+
+    .listing-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent-black);
+    }
+
+    .listing-thumb {
+      position: relative;
+      background: #F3F4F6;
+      height: 195px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid var(--border-light);
+      overflow: hidden;
+    }
+
+    .listing-badges {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      right: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .badge-dark {
+      background: var(--accent-black);
+      color: #FFFFFF;
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 0.32rem 0.75rem;
+      border-radius: var(--radius-full);
+    }
+
+    .badge-light {
+      background: rgba(255, 255, 255, 0.94);
+      color: var(--text-primary);
+      border: 1px solid var(--border-light);
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 0.32rem 0.75rem;
+      border-radius: var(--radius-full);
+    }
+
+    .listing-body {
+      padding: 1.65rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .listing-price {
+      font-family: var(--font-heading);
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .listing-price span {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .listing-name {
+      font-size: 1.08rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .listing-loc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .listing-specs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      padding: 0.85rem 0;
+      border-top: 1px solid var(--border-light);
+      border-bottom: 1px solid var(--border-light);
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    .l-spec strong {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .l-spec span {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+    }
+
+    .listing-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.65rem;
+    }
+
+    /* ==========================================================================
+       6. REAL-TIME MALAYSIA HOME LOAN CALCULATOR
+       ========================================================================== */
+    .calculator-wrapper {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+    }
+
+    .calculator-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .calc-inputs {
+      padding: 2.5rem;
+      border-right: 1px solid var(--border-light);
+    }
+
+    .calc-group {
+      margin-bottom: 1.85rem;
+    }
+
+    .calc-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .calc-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .calc-label {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-primary);
+    }
+
+    .calc-input-box {
+      display: flex;
+      align-items: center;
+      background: var(--bg-secondary);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-sm);
+      padding: 0.45rem 0.75rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .calc-input-box:focus-within {
+      border-color: var(--accent-black);
+      background: #FFFFFF;
+    }
+
+    .calc-prefix, .calc-suffix {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      user-select: none;
+    }
+
+    .calc-prefix {
+      margin-right: 0.4rem;
+    }
+
+    .calc-suffix {
+      margin-left: 0.35rem;
+    }
+
+    .calc-number-input {
+      width: 115px;
+      border: none;
+      background: transparent;
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      text-align: right;
+      outline: none;
+    }
+
+    .calc-number-input.sm {
+      width: 64px;
+    }
+
+    /* Custom Range Slider */
+    input[type="range"].calc-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      background: var(--border-light);
+      border-radius: 999px;
+      outline: none;
+      margin: 0.6rem 0;
+    }
+
+    input[type="range"].calc-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--accent-black);
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+
+    input[type="range"].calc-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.12);
+    }
+
+    input[type="range"].calc-slider::-moz-range-thumb {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--accent-black);
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+      cursor: pointer;
+    }
+
+    .slider-bounds {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .quick-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.65rem;
+    }
+
+    .pill-btn {
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.35rem 0.8rem;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-medium);
+      background: #FFFFFF;
+      color: var(--text-secondary);
+      transition: var(--transition);
+    }
+
+    .pill-btn:hover, .pill-btn.active {
+      background: var(--accent-black);
+      color: #FFFFFF;
+      border-color: var(--accent-black);
+    }
+
+    /* Toggle Switch for First-Time Buyer Stamp Duty Exemption */
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-light);
+      padding: 0.9rem 1.1rem;
+      border-radius: var(--radius-md);
+      margin-top: 1.25rem;
+    }
+
+    .toggle-info strong {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .toggle-info span {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 46px;
+      height: 26px;
+      flex-shrink: 0;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .switch-slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background-color: #D1D5DB;
+      transition: 0.25s;
+      border-radius: 34px;
+    }
+
+    .switch-slider::before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #FFFFFF;
+      transition: 0.25s;
+      border-radius: 50%;
+    }
+
+    .switch input:checked + .switch-slider {
+      background-color: var(--accent-black);
+    }
+
+    .switch input:checked + .switch-slider::before {
+      transform: translateX(20px);
+    }
+
+    /* Calculator Output Panel */
+    .calc-results {
+      background: #0A0A0A;
+      color: #FFFFFF;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .result-kicker {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #A3A3A3;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .result-monthly {
+      font-family: var(--font-heading);
+      font-size: clamp(2.2rem, 3.6vw, 3rem);
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1.1;
+      margin-bottom: 0.45rem;
+    }
+
+    .result-monthly span {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #A3A3A3;
+    }
+
+    .result-subnote {
+      font-size: 0.84rem;
+      color: #D4D4D4;
+      margin-bottom: 1.65rem;
+    }
+
+    /* Visual Ratio Bar */
+    .ratio-bar-wrap {
+      margin-bottom: 1.75rem;
+    }
+
+    .ratio-bar {
+      height: 10px;
+      width: 100%;
+      background: #262626;
+      border-radius: 999px;
+      overflow: hidden;
+      display: flex;
+      margin-bottom: 0.6rem;
+    }
+
+    .ratio-principal {
+      background: #FFFFFF;
+      height: 100%;
+      transition: width 0.3s ease;
+    }
+
+    .ratio-interest {
+      background: #525252;
+      height: 100%;
+      transition: width 0.3s ease;
+    }
+
+    .ratio-legend {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: #A3A3A3;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+    }
+
+    .result-breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid #262626;
+      border-bottom: 1px solid #262626;
+      margin-bottom: 1.5rem;
+    }
+
+    .breakdown-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    .breakdown-row span {
+      color: #A3A3A3;
+    }
+
+    .breakdown-row strong {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+
+    .dsr-box {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.15rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .dsr-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .dsr-row span {
+      font-size: 0.82rem;
+      color: #D4D4D4;
+    }
+
+    .dsr-row strong {
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      color: var(--accent-whatsapp);
+    }
+
+    .dsr-hint {
+      font-size: 0.76rem;
+      color: #A3A3A3;
+      line-height: 1.45;
+    }
+
+    .calc-disclaimer {
+      font-size: 0.73rem;
+      color: #8E8E8E;
+      margin-top: 0.85rem;
+      text-align: center;
+    }
+
+    /* ==========================================================================
+       7. ROADMAP PROCESS & FAQ ACCORDION
+       ========================================================================== */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 4.5rem;
+    }
+
+    .step-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-xs);
+    }
+
+    .step-num {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--accent-black);
+      color: #FFFFFF;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.92rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.15rem;
+    }
+
+    .step-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-card p {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* FAQ Accordion */
+    .faq-container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      margin-bottom: 0.9rem;
+      overflow: hidden;
+      transition: border-color 0.2s ease;
+    }
+
+    .faq-item.active {
+      border-color: var(--accent-black);
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      text-align: left;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text-primary);
+    }
+
+    .faq-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--bg-tertiary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: transform 0.25s ease;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+      background: var(--accent-black);
+      color: #FFFFFF;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .faq-answer-inner {
+      padding: 0 1.5rem 1.35rem;
+      font-size: 0.93rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    /* ==========================================================================
+       8. INTERACTIVE CONSULTATION BUILDER CTA & FOOTER
+       ========================================================================== */
+    .cta-box {
+      background: #0A0A0A;
+      color: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 3.5rem;
+      box-shadow: var(--shadow-lg);
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .cta-box h2 {
+      color: #FFFFFF;
+      font-size: clamp(1.75rem, 3vw, 2.35rem);
+      margin-bottom: 0.9rem;
+    }
+
+    .cta-box p {
+      color: #B5B5B5;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-builder {
+      background: #171717;
+      border: 1px solid #2E2E2E;
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+    }
+
+    .builder-field {
+      margin-bottom: 1.15rem;
+    }
+
+    .builder-field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #A3A3A3;
+      margin-bottom: 0.5rem;
+    }
+
+    .chip-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .chip {
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.82rem;
+      font-weight: 500;
+      background: #262626;
+      color: #D4D4D4;
+      border: 1px solid #383838;
+      transition: var(--transition);
+    }
+
+    .chip:hover {
+      border-color: #737373;
+    }
+
+    .chip.selected {
+      background: #FFFFFF;
+      color: #0A0A0A;
+      border-color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    .footer {
+      background: #FFFFFF;
+      border-top: 1px solid var(--border-light);
+      padding: 3.5rem 0 2.5rem;
+    }
+
+    .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      padding-bottom: 2.25rem;
+      border-bottom: 1px solid var(--border-light);
+      margin-bottom: 1.75rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .footer-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    /* Floating WhatsApp Action Button */
+    .floating-wa {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      background: var(--accent-black);
+      color: #FFFFFF;
+      padding: 0.75rem 1.2rem 0.75rem 0.85rem;
+      border-radius: var(--radius-full);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: var(--transition);
+    }
+
+    .floating-wa:hover {
+      transform: translateY(-3px);
+      background: #1B1B1B;
+    }
+
+    .floating-wa-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--accent-whatsapp);
+      color: #062812;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .floating-wa-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+
+    .floating-wa-text small {
+      font-size: 0.68rem;
+      color: #A3A3A3;
+    }
+
+    .floating-wa-text strong {
+      font-family: var(--font-heading);
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       RESPONSIVE BREAKPOINTS
+       ========================================================================== */
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .calculator-grid,
+      .cta-box {
+        grid-template-columns: 1fr;
+      }
+
+      .calc-inputs {
+        border-right: none;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .areas-grid,
+      .clients-grid,
+      .listings-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links,
+      .nav-actions .btn-desktop {
+        display: none;
+      }
+
+      .mobile-toggle {
+        display: inline-flex;
+      }
+
+      .section {
+        padding: 4rem 0;
+      }
+
+      .areas-grid,
+      .clients-grid,
+      .listings-grid,
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .calc-inputs,
+      .calc-results,
+      .cta-box {
+        padding: 1.75rem;
+      }
+
+      .floating-wa-text {
+        display: none;
+      }
+
+      .floating-wa {
+        display: none;
+      }
+
+      body {
+        padding-bottom: 78px;
+      }
+
+      .mobile-sticky-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-top: 1px solid var(--border-light);
+        padding: 0.7rem 1.25rem;
+        box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.08);
+      }
+
+      .mobile-sticky-meta {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+      }
+
+      .mobile-sticky-meta strong {
+        font-family: var(--font-heading);
+        font-size: 0.9rem;
+        color: var(--text-primary);
+      }
+
+      .mobile-sticky-meta span {
+        font-size: 0.74rem;
+        color: var(--text-muted);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================================
+       EDITABLE AGENT CONFIGURATION:
+       Update your details inside the <script> tag at the bottom of this file
+       (AGENT_CONFIG object) to automatically update all DOM text & WhatsApp links!
+       ======================================================================== -->
+
+  <!-- 1. STICKY NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#top" class="brand" aria-label="Kelvin Foo Real Estate Home">
+        <div class="brand-monogram" data-agent="initials">KF</div>
+        <div class="brand-text">
+          <span class="brand-name" data-agent="name">Kelvin Foo</span>
+          <span class="brand-meta"><span data-agent="title">Real Estate Negotiator</span> • <span data-agent="ren">REN63933</span></span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#areas">Areas Covered</a>
+        <a href="#clients">Who I Help</a>
+        <a href="#listings">Featured Homes</a>
+        <a href="#calculator">Loan Calculator</a>
+        <a href="#process">Process &amp; FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="btn btn-whatsapp btn-sm btn-desktop wa-trigger" data-wa-message="Hi Kelvin (REN63933), I found your website and would like to book a landed property consultation.">
+          <span class="wa-dot">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43zM12.08 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.85 9.85 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.89 7c0 5.46-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/></svg>
+          </span>
+          WhatsApp Kelvin
+        </a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="container">
+        <div class="mobile-menu-links">
+          <a href="#areas" class="mobile-link">Areas Covered</a>
+          <a href="#clients" class="mobile-link">Who I Help</a>
+          <a href="#listings" class="mobile-link">Featured Homes</a>
+          <a href="#calculator" class="mobile-link">Malaysia Home Loan Calculator</a>
+          <a href="#process" class="mobile-link">Buying Process &amp; FAQ</a>
+        </div>
+        <a href="#" class="btn btn-whatsapp btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'd like to schedule a landed property consultation.">
+          <span class="wa-dot">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+          </span>
+          Chat on WhatsApp (<span data-agent="displayPhone">+60 16-725 8223</span>)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">
+            <span class="dot dot-green"></span>
+            BOVAEP / LPPEH Registered Negotiator • <span data-agent="ren">REN63933</span>
+          </div>
+          <h1 class="hero-title">
+            Trusted <span>Landed Property</span> Advisory in <span style="display:inline;" data-agent="areas">Teluk Intan, Langkap &amp; Kampar</span>.
+          </h1>
+          <p class="hero-desc">
+            Whether you are purchasing your very first home, upgrading space for a growing family, or building a high-yield rental portfolio in Perak, I provide clear market data, bank loan eligibility guidance, and end-to-end transaction support.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#" class="btn btn-whatsapp wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm interested in landed properties in Teluk Intan / Langkap / Kampar. Can we have a quick consultation?">
+              <span class="wa-dot">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+              </span>
+              Free WhatsApp Consultation
+            </a>
+            <a href="#calculator" class="btn btn-outline">
+              Calculate Home Loan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>3 Corridors</h3>
+              <p>Deep local ground coverage in Teluk Intan, Langkap &amp; Kampar</p>
+            </div>
+            <div class="stat-item">
+              <h3>Landed Focus</h3>
+              <p>Single &amp; Double Storey Terraces, Semi-Ds &amp; Bungalows</p>
+            </div>
+            <div class="stat-item">
+              <h3>End-to-End</h3>
+              <p>Loan DSR screening, legal SPA coordination &amp; key handover</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editable Agent Profile Card -->
+        <aside class="agent-card" aria-label="Agent Profile Summary">
+          <div class="agent-card-visual">
+            <div class="agent-card-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              LPPEH Registered Negotiator
+            </div>
+
+            <!-- Architectural & Executive Monogram Visual (Replace with <img> headshot anytime) -->
+            <div class="agent-portrait-placeholder">
+              <svg viewBox="0 0 360 220" width="100%" height="220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kelvin Foo Architectural Portrait Frame">
+                <!-- Subtle Architectural Roofline & Grid -->
+                <path d="M30 218V122L180 34L330 122V218" stroke="rgba(255,255,255,0.16)" stroke-width="1.5"/>
+                <path d="M68 218V136L180 70L292 136V218" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                <line x1="180" y1="14" x2="180" y2="34" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"/>
+                <!-- Executive Silhouette Avatar -->
+                <circle cx="180" cy="112" r="36" fill="#2A2A2A" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+                <text x="180" y="121" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, sans-serif" font-weight="700" font-size="22" letter-spacing="1" data-agent="initials">KF</text>
+                <path d="M112 218C112 180.445 142.445 156 180 156C217.555 156 248 180.445 248 218" fill="#222222" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="agent-card-body">
+            <div class="agent-card-header">
+              <div>
+                <h2 class="agent-card-name" data-agent="name">Kelvin Foo</h2>
+                <p class="agent-card-role" data-agent="title">Real Estate Negotiator</p>
+              </div>
+              <span class="ren-pill" data-agent="ren">REN63933</span>
+            </div>
+
+            <div class="agent-specs">
+              <div class="agent-spec-row">
+                <span class="agent-spec-label">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                  Specialty
+                </span>
+                <span class="agent-spec-value" data-agent="specialty">Landed Properties</span>
+              </div>
+              <div class="agent-spec-row">
+                <span class="agent-spec-label">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Coverage
+                </span>
+                <span class="agent-spec-value" data-agent="areas">Teluk Intan, Langkap &amp; Kampar</span>
+              </div>
+              <div class="agent-spec-row">
+                <span class="agent-spec-label">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  Clients
+                </span>
+                <span class="agent-spec-value" data-agent="clients">First-Home, Families &amp; Investors</span>
+              </div>
+            </div>
+
+            <a href="#" class="btn btn-primary btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I saw your profile card. I'd like to discuss buying/investing in a landed property.">
+              Direct WhatsApp: <span data-agent="displayPhone">+60 16-725 8223</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 3. COVERAGE AREAS (TELUK INTAN, LANGKAP & KAMPAR) -->
+    <section id="areas" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow"><span class="dot"></span> Local Market Expertise</div>
+          <h2 class="section-title">Three High-Potential Perak Property Corridors</h2>
+          <p class="section-subtitle">
+            Every town has its own pricing dynamics, bank valuation benchmarks, and tenant profiles. Explore where your next landed property fits best.
+          </p>
+        </div>
+
+        <div class="areas-grid">
+          <!-- Area 1: Teluk Intan -->
+          <article class="area-card">
+            <div>
+              <div class="area-top">
+                <span class="area-tag">Commercial &amp; Township Hub</span>
+                <span class="area-number">01</span>
+              </div>
+              <h3 class="area-title">Teluk Intan</h3>
+              <p class="area-desc">
+                Lower Perak’s primary administrative and commercial center, boosted by West Coast Expressway (WCE) connectivity and expanding modern residential townships.
+              </p>
+              <ul class="area-highlights">
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  New &amp; sub-sale single/double storey terraces
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Close to Hospital Teluk Intan, TF Value-Mart &amp; schools
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Strong own-stay family demand &amp; steady appreciation
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-outline btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm looking for landed properties in Teluk Intan. Could you share what's currently available?">
+              Inquire Teluk Intan Homes &rarr;
+            </a>
+          </article>
+
+          <!-- Area 2: Langkap -->
+          <article class="area-card">
+            <div>
+              <div class="area-top">
+                <span class="area-tag">Value &amp; Serene Living</span>
+                <span class="area-number">02</span>
+              </div>
+              <h3 class="area-title">Langkap</h3>
+              <p class="area-desc">
+                Strategically positioned between Teluk Intan and Kampar, offering generous land sizes at accessible entry prices ideal for first-time buyers and multi-generational families.
+              </p>
+              <ul class="area-highlights">
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Attractive entry prices with lower monthly installments
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Spacious Semi-Ds &amp; larger lot dimensions
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Easy highway access to Teluk Intan, Bidor &amp; Kampar
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-outline btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm interested in landed properties in Langkap. Can you share available options and price ranges?">
+              Inquire Langkap Homes &rarr;
+            </a>
+          </article>
+
+          <!-- Area 3: Kampar -->
+          <article class="area-card">
+            <div>
+              <div class="area-top">
+                <span class="area-tag">Education &amp; Rental Hub</span>
+                <span class="area-number">03</span>
+              </div>
+              <h3 class="area-title">Kampar</h3>
+              <p class="area-desc">
+                Home to UTAR and Tunku Abdul Rahman University of Management and Technology (TAR UMT), creating consistent year-round rental demand and vibrant township infrastructure.
+              </p>
+              <ul class="area-highlights">
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  High-yield landed homes near Bandar Baru Kampar
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Consistent student, lecturer &amp; medical staff tenancy
+                </li>
+                <li>
+                  <span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Scenic limestone backdrop &amp; North-South Highway access
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-outline btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm interested in landed properties in Kampar (for own stay / investment). Please share your recommendations.">
+              Inquire Kampar Homes &rarr;
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. TAILORED CLIENT SOLUTIONS -->
+    <section id="clients" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <div class="eyebrow"><span class="dot"></span> Tailored Advisory</div>
+          <h2 class="section-title">Built Around Your Property Goal</h2>
+          <p class="section-subtitle">
+            Buying a landed house is one of your biggest financial milestones. I customize every search, loan strategy, and negotiation around your exact stage of life.
+          </p>
+        </div>
+
+        <div class="clients-grid">
+          <!-- Client 1: First-House Buyers -->
+          <div class="client-card">
+            <div>
+              <div class="client-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+              </div>
+              <h3 class="client-title">First-House Buyers</h3>
+              <p class="client-desc">
+                Confused about DSR, CCRIS, down payments, or lawyer fees? I simplify every step so you buy with confidence and zero hidden surprises.
+              </p>
+              <ul class="client-perks">
+                <li>Free bank DSR &amp; loan eligibility pre-check</li>
+                <li>100% loan / SJKP &amp; first-home stamp duty guidance</li>
+                <li>Full transparent breakdown of upfront entry costs</li>
+                <li>Step-by-step accompaniment until key handover</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I am a First-House Buyer looking for guidance on buying a landed home and checking my loan eligibility.">
+              Start First-Home Plan
+            </a>
+          </div>
+
+          <!-- Client 2: Growing Families -->
+          <div class="client-card">
+            <div>
+              <div class="client-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h3 class="client-title">Upgrading Families</h3>
+              <p class="client-desc">
+                Need extra bedrooms, wider car porches, or a safer neighborhood near schools and daily conveniences for your children and parents?
+              </p>
+              <ul class="client-perks">
+                <li>Curated double-storey terraces, Semi-Ds &amp; bungalows</li>
+                <li>Neighbourhood safety, flood-free &amp; amenity checks</li>
+                <li>Move-in ready vs. renovation-potential comparisons</li>
+                <li>Coordinated timeline if selling your current home</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm looking for a spacious landed family home in Teluk Intan / Langkap / Kampar.">
+              Find a Family Home
+            </a>
+          </div>
+
+          <!-- Client 3: Property Investors -->
+          <div class="client-card">
+            <div>
+              <div class="client-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+              </div>
+              <h3 class="client-title">Property Investors</h3>
+              <p class="client-desc">
+                Acquire below-market-value landed assets or high-occupancy student/family rentals in Kampar and Teluk Intan growth zones.
+              </p>
+              <ul class="client-perks">
+                <li>Realistic rental yield &amp; cashflow projections</li>
+                <li>Kampar university belt &amp; Teluk Intan commercial picks</li>
+                <li>Bank valuation checks before placing booking deposit</li>
+                <li>Post-purchase tenant placement advisory</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary btn-full wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm a property investor looking for high-yield or undervalued landed properties in Perak.">
+              Explore Investor Deals
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FEATURED LANDED LISTINGS SHOWCASE (EDITABLE SAMPLES) -->
+    <section id="listings" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow"><span class="dot"></span> Curated Portfolio</div>
+          <h2 class="section-title">Featured Landed Opportunities</h2>
+          <p class="section-subtitle">
+            A snapshot of landed property profiles across our three core areas. Click <strong>"Calculate"</strong> to load the price directly into the loan calculator below, or message me for full photos and viewing slots.
+          </p>
+        </div>
+
+        <div class="listings-grid">
+          <!-- Listing 1: Teluk Intan -->
+          <article class="listing-card">
+            <div class="listing-thumb">
+              <div class="listing-badges">
+                <span class="badge-dark">Teluk Intan</span>
+                <span class="badge-light">Freehold • Brand New</span>
+              </div>
+              <!-- Clean Architectural House Illustration -->
+              <svg width="220" height="125" viewBox="0 0 220 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="24" y="56" width="172" height="56" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+                <polygon points="14,58 110,18 206,58" fill="#111111"/>
+                <rect x="44" y="70" width="34" height="24" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <rect x="96" y="72" width="28" height="40" rx="2" fill="#111111"/>
+                <rect x="142" y="70" width="34" height="24" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <line x1="10" y1="112" x2="210" y2="112" stroke="#111111" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="listing-body">
+              <div>
+                <div class="listing-price">RM 368,000 <span>est.</span></div>
+                <h3 class="listing-name">Modern Double Storey Terrace</h3>
+                <p class="listing-loc">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Teluk Intan Township Corridor, Perak
+                </p>
+                <div class="listing-specs">
+                  <div class="l-spec"><strong>4 Beds</strong><span>Bedrooms</span></div>
+                  <div class="l-spec"><strong>3 Baths</strong><span>Bathrooms</span></div>
+                  <div class="l-spec"><strong>20' × 70'</strong><span>Land Size</span></div>
+                </div>
+              </div>
+              <div class="listing-actions">
+                <button type="button" class="btn btn-outline btn-sm load-calc-btn" data-price="368000" data-label="Teluk Intan Double Storey Terrace (RM 368,000)">
+                  Calculate Loan
+                </button>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'd like more details & viewing info for the Modern Double Storey Terrace in Teluk Intan (RM 368,000).">
+                  Enquire on WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Listing 2: Langkap -->
+          <article class="listing-card">
+            <div class="listing-thumb">
+              <div class="listing-badges">
+                <span class="badge-dark">Langkap</span>
+                <span class="badge-light">First-Home Pick</span>
+              </div>
+              <svg width="220" height="125" viewBox="0 0 220 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="64" width="180" height="48" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+                <polygon points="12,66 75,34 145,34 208,66" fill="#111111"/>
+                <rect x="38" y="76" width="38" height="22" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <rect x="96" y="76" width="26" height="36" rx="2" fill="#111111"/>
+                <rect x="140" y="76" width="42" height="22" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <line x1="10" y1="112" x2="210" y2="112" stroke="#111111" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="listing-body">
+              <div>
+                <div class="listing-price">RM 265,000 <span>est.</span></div>
+                <h3 class="listing-name">Spacious Single Storey Terrace</h3>
+                <p class="listing-loc">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Taman Residential Zone, Langkap
+                </p>
+                <div class="listing-specs">
+                  <div class="l-spec"><strong>3 Beds</strong><span>Bedrooms</span></div>
+                  <div class="l-spec"><strong>2 Baths</strong><span>Bathrooms</span></div>
+                  <div class="l-spec"><strong>22' × 75'</strong><span>Land Size</span></div>
+                </div>
+              </div>
+              <div class="listing-actions">
+                <button type="button" class="btn btn-outline btn-sm load-calc-btn" data-price="265000" data-label="Langkap Single Storey Terrace (RM 265,000)">
+                  Calculate Loan
+                </button>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'd like more details for the Spacious Single Storey Terrace in Langkap (RM 265,000).">
+                  Enquire on WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Listing 3: Kampar -->
+          <article class="listing-card">
+            <div class="listing-thumb">
+              <div class="listing-badges">
+                <span class="badge-dark">Kampar</span>
+                <span class="badge-light">High Rental Yield</span>
+              </div>
+              <svg width="220" height="125" viewBox="0 0 220 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="30" y="42" width="160" height="70" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+                <polygon points="22,44 110,14 198,44" fill="#111111"/>
+                <line x1="30" y1="76" x2="190" y2="76" stroke="#111111" stroke-width="1.5"/>
+                <rect x="48" y="50" width="28" height="18" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <rect x="96" y="50" width="28" height="18" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <rect x="144" y="50" width="28" height="18" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.5"/>
+                <rect x="96" y="82" width="28" height="30" rx="2" fill="#111111"/>
+                <line x1="10" y1="112" x2="210" y2="112" stroke="#111111" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="listing-body">
+              <div>
+                <div class="listing-price">RM 420,000 <span>est.</span></div>
+                <h3 class="listing-name">Bandar Baru Kampar Semi-D / Terrace</h3>
+                <p class="listing-loc">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Near UTAR &amp; Commercial Hub, Kampar
+                </p>
+                <div class="listing-specs">
+                  <div class="l-spec"><strong>4+1 Beds</strong><span>Bedrooms</span></div>
+                  <div class="l-spec"><strong>4 Baths</strong><span>Bathrooms</span></div>
+                  <div class="l-spec"><strong>30' × 70'</strong><span>Land Size</span></div>
+                </div>
+              </div>
+              <div class="listing-actions">
+                <button type="button" class="btn btn-outline btn-sm load-calc-btn" data-price="420000" data-label="Kampar Landed Property (RM 420,000)">
+                  Calculate Loan
+                </button>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'd like more details & rental yield info for the Kampar landed property (RM 420,000).">
+                  Enquire on WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. REAL-TIME MALAYSIA HOME LOAN CALCULATOR -->
+    <section id="calculator" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <div class="eyebrow"><span class="dot dot-green"></span> Interactive Financial Tool</div>
+          <h2 class="section-title">Real-Time Malaysia Home Loan Calculator</h2>
+          <p class="section-subtitle">
+            Estimate your monthly bank installment, required net salary (DSR guideline), and upfront legal/stamp duty costs—then send your numbers directly to me on WhatsApp for a free eligibility check.
+          </p>
+        </div>
+
+        <div class="calculator-wrapper">
+          <div class="calculator-grid">
+            <!-- Left Side: Controls -->
+            <div class="calc-inputs">
+              <!-- Property Price -->
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <label for="priceInput" class="calc-label">Property Price</label>
+                  <div class="calc-input-box">
+                    <span class="calc-prefix">RM</span>
+                    <input type="number" id="priceInput" class="calc-number-input" value="380000" min="150000" max="2000000" step="5000" />
+                  </div>
+                </div>
+                <input type="range" id="priceSlider" class="calc-slider" min="150000" max="2000000" step="5000" value="380000" />
+                <div class="slider-bounds">
+                  <span>RM 150,000</span>
+                  <span>RM 1,000,000</span>
+                  <span>RM 2,000,000</span>
+                </div>
+              </div>
+
+              <!-- Down Payment (Synchronized RM & %) -->
+              <div class="calc-group">
+                <div class="calc-label-row" style="flex-wrap: wrap;">
+                  <label for="dpPercentInput" class="calc-label">Down Payment</label>
+                  <div style="display:flex; gap:0.5rem; align-items:center;">
+                    <div class="calc-input-box">
+                      <span class="calc-prefix">RM</span>
+                      <input type="number" id="dpRmInput" class="calc-number-input" value="38000" min="0" max="1800000" step="1000" aria-label="Down Payment in Ringgit Malaysia" />
+                    </div>
+                    <div class="calc-input-box">
+                      <input type="number" id="dpPercentInput" class="calc-number-input sm" value="10" min="0" max="80" step="1" aria-label="Down Payment Percentage" />
+                      <span class="calc-suffix">%</span>
+                    </div>
+                  </div>
+                </div>
+                <input type="range" id="dpSlider" class="calc-slider" min="0" max="50" step="1" value="10" />
+                <div class="quick-pills" id="dpPills">
+                  <button type="button" class="pill-btn" data-dp="0">0% (100% First-Home / SJKP)</button>
+                  <button type="button" class="pill-btn active" data-dp="10">10% (Standard)</button>
+                  <button type="button" class="pill-btn" data-dp="20">20%</button>
+                  <button type="button" class="pill-btn" data-dp="30">30%</button>
+                </div>
+              </div>
+
+              <!-- Interest Rate -->
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <label for="rateInput" class="calc-label">Bank Interest Rate (p.a.)</label>
+                  <div class="calc-input-box">
+                    <input type="number" id="rateInput" class="calc-number-input sm" value="4.10" min="3.0" max="6.5" step="0.05" />
+                    <span class="calc-suffix">%</span>
+                  </div>
+                </div>
+                <input type="range" id="rateSlider" class="calc-slider" min="3.5" max="5.5" step="0.05" value="4.10" />
+                <div class="slider-bounds">
+                  <span>3.50%</span>
+                  <span>Malaysia Standard: 3.85% – 4.25%</span>
+                  <span>5.50%</span>
+                </div>
+              </div>
+
+              <!-- Loan Tenure -->
+              <div class="calc-group">
+                <div class="calc-label-row">
+                  <label for="tenureInput" class="calc-label">Loan Tenure</label>
+                  <div class="calc-input-box">
+                    <input type="number" id="tenureInput" class="calc-number-input sm" value="35" min="5" max="35" step="1" />
+                    <span class="calc-suffix">Yrs</span>
+                  </div>
+                </div>
+                <input type="range" id="tenureSlider" class="calc-slider" min="5" max="35" step="1" value="35" />
+                <div class="quick-pills" id="tenurePills">
+                  <button type="button" class="pill-btn" data-tenure="20">20 Yrs</button>
+                  <button type="button" class="pill-btn" data-tenure="25">25 Yrs</button>
+                  <button type="button" class="pill-btn" data-tenure="30">30 Yrs</button>
+                  <button type="button" class="pill-btn active" data-tenure="35">35 Yrs (Max)</button>
+                </div>
+
+                <!-- First-Time Home Buyer Stamp Duty Exemption Toggle -->
+                <div class="toggle-row">
+                  <div class="toggle-info">
+                    <strong>First-Time Home Buyer Stamp Duty Exemption</strong>
+                    <span>Applies Malaysia MOT &amp; Loan stamp duty waiver (up to RM 500k)</span>
+                  </div>
+                  <label class="switch" aria-label="Toggle First-Time Home Buyer Stamp Duty Exemption">
+                    <input type="checkbox" id="firstHomeToggle" checked />
+                    <span class="switch-slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side: Real-Time Results & Direct WhatsApp Trigger -->
+            <div class="calc-results">
+              <div>
+                <div class="result-kicker">Estimated Monthly Installment</div>
+                <div class="result-monthly" id="monthlyInstallment">RM 1,539 <span>/ month</span></div>
+                <p class="result-subnote" id="selectedPropertyNote">
+                  Based on 90% loan margin (RM 342,000) over 35 years at 4.10% p.a.
+                </p>
+
+                <!-- Principal vs Interest Visual Bar -->
+                <div class="ratio-bar-wrap">
+                  <div class="ratio-bar">
+                    <div class="ratio-principal" id="principalBar" style="width: 53%;"></div>
+                    <div class="ratio-interest" id="interestBar" style="width: 47%;"></div>
+                  </div>
+                  <div class="ratio-legend">
+                    <span class="legend-item"><span class="legend-dot" style="background:#FFFFFF;"></span> Principal (<span id="principalPct">53%</span>)</span>
+                    <span class="legend-item"><span class="legend-dot" style="background:#525252;"></span> Total Interest (<span id="interestPct">47%</span>)</span>
+                  </div>
+                </div>
+
+                <!-- Detailed Breakdown -->
+                <div class="result-breakdown">
+                  <div class="breakdown-row">
+                    <span>Total Loan Amount (<span id="ltvLabel">90%</span>)</span>
+                    <strong id="loanAmountOut">RM 342,000</strong>
+                  </div>
+                  <div class="breakdown-row">
+                    <span>Down Payment (<span id="dpPctOut">10%</span>)</span>
+                    <strong id="downPaymentOut">RM 38,000</strong>
+                  </div>
+                  <div class="breakdown-row">
+                    <span>Est. Legal Fees &amp; Stamp Duty</span>
+                    <strong id="legalDutyOut">RM 8,650</strong>
+                  </div>
+                  <div class="breakdown-row">
+                    <span>Total Est. Upfront Cash Needed</span>
+                    <strong id="entryCostOut" style="color: var(--accent-whatsapp);">RM 46,650</strong>
+                  </div>
+                  <div class="breakdown-row">
+                    <span>Total Interest Payable</span>
+                    <strong id="totalInterestOut">RM 304,380</strong>
+                  </div>
+                </div>
+
+                <!-- DSR Income Guideline -->
+                <div class="dsr-box">
+                  <div class="dsr-row">
+                    <span>Suggested Net Monthly Income:</span>
+                    <strong id="minIncomeOut">RM 2,565+</strong>
+                  </div>
+                  <p class="dsr-hint">
+                    Estimated using a healthy 60% Debt Service Ratio (DSR) assuming zero existing car/PTPTN commitments. Joint-name applications are supported.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <a href="#" id="calcWhatsAppBtn" class="btn btn-whatsapp-solid btn-full" target="_blank" rel="noopener">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+                  Send Calculation &amp; Check Loan Eligibility via WhatsApp
+                </a>
+                <p class="calc-disclaimer">
+                  *Figures are indicative estimates for financial planning. Final rates &amp; margins depend on individual CCRIS/CTOS profile and bank approval.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. ROADMAP PROCESS & FAQ ACCORDION -->
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <div class="section-header center">
+          <div class="eyebrow"><span class="dot"></span> Transparent Roadmap</div>
+          <h2 class="section-title">How We Secure Your Landed Home</h2>
+          <p class="section-subtitle">
+            A structured, stress-free 4-step process designed to protect your deposit and ensure smooth bank &amp; legal approvals.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <h3>Consultation &amp; DSR Check</h3>
+            <p>We clarify your budget, preferred area (Teluk Intan, Langkap or Kampar), and pre-check your bank loan capacity before viewing.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <h3>Curated Viewing Tour</h3>
+            <p>Shortlist only landed properties that match your criteria and true bank valuation—saving you weekends of wasted trips.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <h3>Booking &amp; Loan Submission</h3>
+            <p>Submit your booking safely with clear refund clauses while I coordinate multi-bank loan applications for the best interest rate.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">04</div>
+            <h3>SPA Signing &amp; Key Handover</h3>
+            <p>Work with trusted panel lawyers for your Sale &amp; Purchase Agreement (SPA), loan disbursement, and defect inspection at handover.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="faq-container">
+          <div class="section-header center" style="margin-bottom: 2rem;">
+            <h3 class="section-title" style="font-size: 1.75rem;">Frequently Asked Questions</h3>
+          </div>
+
+          <div class="faq-item active">
+            <button type="button" class="faq-question" aria-expanded="true">
+              <span>Can first-time home buyers get a 100% loan in Perak?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer" style="max-height: 220px;">
+              <div class="faq-answer-inner">
+                Yes. Eligible Malaysian first-time home buyers can apply for up to 100% financing through participating commercial banks or Skim Jaminan Kredit Perumahan (SJKP) for properties up to RM 500,000, subject to income and DSR assessment. Message me on WhatsApp and I can help check your exact eligibility.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How much cash do I need to prepare besides the down payment?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Typically, buyers should prepare for SPA legal fees, Loan Agreement legal fees, stamp duties (MOT &amp; Loan), and valuation fees—usually around 3% to 5% of the property price. However, if you are a first-time buyer purchasing a property at RM 500,000 or below, you qualify for 100% stamp duty exemption, significantly lowering your upfront cash needed.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Do you handle both new developer projects and sub-sale landed houses?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Yes. I cover both brand-new developer landed townships (often featuring low down payment packages and free legal fees) as well as established sub-sale landed homes in mature neighborhoods across Teluk Intan, Langkap, and Kampar.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>I own a landed property in Teluk Intan, Langkap or Kampar. Can you help me sell or rent it out?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Absolutely. As a registered negotiator (REN63933), I provide complimentary market valuation checks, professional property marketing, buyer loan screening, and full legal coordination for homeowners looking to sell or lease their landed properties.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. INTERACTIVE CONSULTATION BUILDER CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <div class="eyebrow" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #FFFFFF;">
+              <span class="dot dot-green"></span> Direct Advisory • Zero Obligation
+            </div>
+            <h2>Ready to Explore Landed Properties?</h2>
+            <p>
+              Select your buyer profile and preferred Perak town on the right to generate a tailored WhatsApp message straight to Kelvin Foo (REN63933).
+            </p>
+            <div style="display:flex; flex-wrap:wrap; gap:1.25rem; font-size:0.88rem; color:#D4D4D4;">
+              <span>&#10003; Fast response via WhatsApp</span>
+              <span>&#10003; Transparent bank &amp; legal advice</span>
+              <span>&#10003; English, Mandarin &amp; Bahasa Melayu</span>
+            </div>
+          </div>
+
+          <div class="cta-builder">
+            <div class="builder-field">
+              <label>1. I am a...</label>
+              <div class="chip-group" id="clientTypeChips">
+                <button type="button" class="chip selected" data-value="First-House Buyer">First-House Buyer</button>
+                <button type="button" class="chip" data-value="Family Buyer">Family Buyer</button>
+                <button type="button" class="chip" data-value="Property Investor">Property Investor</button>
+                <button type="button" class="chip" data-value="Homeowner Looking to Sell/Rent">Owner (Sell/Rent)</button>
+              </div>
+            </div>
+
+            <div class="builder-field">
+              <label>2. Preferred Area</label>
+              <div class="chip-group" id="areaChips">
+                <button type="button" class="chip selected" data-value="Teluk Intan">Teluk Intan</button>
+                <button type="button" class="chip" data-value="Langkap">Langkap</button>
+                <button type="button" class="chip" data-value="Kampar">Kampar</button>
+                <button type="button" class="chip" data-value="Teluk Intan, Langkap or Kampar">All 3 Areas</button>
+              </div>
+            </div>
+
+            <div class="builder-field" style="margin-bottom: 1.35rem;">
+              <label>3. Target Budget Range</label>
+              <div class="chip-group" id="budgetChips">
+                <button type="button" class="chip" data-value="Below RM 300k">Below RM 300k</button>
+                <button type="button" class="chip selected" data-value="RM 300k – RM 450k">RM 300k – RM 450k</button>
+                <button type="button" class="chip" data-value="RM 450k – RM 650k">RM 450k – RM 650k</button>
+                <button type="button" class="chip" data-value="RM 650k+">RM 650k+</button>
+              </div>
+            </div>
+
+            <a href="#" id="customBuilderWaBtn" class="btn btn-whatsapp-solid btn-full" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+              Start Custom WhatsApp Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="brand">
+          <div class="brand-monogram" data-agent="initials">KF</div>
+          <div class="brand-text">
+            <span class="brand-name"><span data-agent="name">Kelvin Foo</span> (<span data-agent="ren">REN63933</span>)</span>
+            <span class="brand-meta">Registered under BOVAEP / LPPEH • <span data-agent="specialty">Landed Properties</span> (<span data-agent="areas">Teluk Intan, Langkap &amp; Kampar</span>)</span>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#areas">Areas Covered</a>
+          <a href="#clients">Client Solutions</a>
+          <a href="#listings">Featured Homes</a>
+          <a href="#calculator">Home Loan Calculator</a>
+          <a href="#process">Process &amp; FAQ</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="currentYear"></span> <span data-agent="name">Kelvin Foo</span> (<span data-agent="ren">REN63933</span>) • Registered Real Estate Negotiator (BOVAEP). All Rights Reserved.</span>
+        <span>WhatsApp Direct: <span data-agent="displayPhone">+60 16-725 8223</span> • Perak, Malaysia</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP ACTION BUTTON (DESKTOP/TABLET) -->
+  <a href="#" class="floating-wa wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'd like to inquire about landed properties in Teluk Intan / Langkap / Kampar." aria-label="Chat with Kelvin Foo on WhatsApp">
+    <span class="floating-wa-circle">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+    </span>
+    <span class="floating-wa-text">
+      <small>Online • <span data-agent="ren">REN63933</span></small>
+      <strong>Chat with <span data-agent="firstName">Kelvin</span></strong>
+    </span>
+  </a>
+
+  <!-- STICKY MOBILE WHATSAPP BAR -->
+  <div class="mobile-sticky-bar" role="region" aria-label="Mobile Quick Consultation Bar">
+    <div class="mobile-sticky-meta">
+      <strong><span data-agent="name">Kelvin Foo</span> (<span data-agent="ren">REN63933</span>)</strong>
+      <span>Landed Specialist • Perak</span>
+    </div>
+    <a href="#" class="btn btn-whatsapp-solid btn-sm wa-trigger" data-wa-message="Hi Kelvin (REN63933), I'm browsing on mobile and would like a landed property consultation.">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.87 11.87 0 0 0 5.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43z"/></svg>
+      WhatsApp Now
+    </a>
+  </div>
+
+  <!-- ========================================================================
+       INLINE JAVASCRIPT: AGENT CONFIG, WHATSAPP TRIGGERS & MALAYSIA LOAN ENGINE
+       ======================================================================== -->
+  <script>
+    (function () {
+      "use strict";
+
+      /* ----------------------------------------------------------------------
+         1. EDITABLE AGENT CONFIGURATION
+         Change your details below once, and every DOM text & WhatsApp CTA updates.
+         ---------------------------------------------------------------------- */
+      const AGENT_CONFIG = {
+        name: "Kelvin Foo",
+        firstName: "Kelvin",
+        initials: "KF",
+        title: "Real Estate Negotiator",
+        ren: "REN63933",
+        areas: "Teluk Intan, Langkap & Kampar",
+        specialty: "Landed Properties",
+        clients: "First-Home, Families & Investors",
+        whatsappNumber: "60167258223", // Digits only with country code (60)
+        displayPhone: "+60 16-725 8223"
+      };
+
+      // Automatically populate DOM placeholders matching data-agent attributes
+      document.querySelectorAll("[data-agent]").forEach((el) => {
+        const key = el.getAttribute("data-agent");
+        if (AGENT_CONFIG[key]) {
+          el.textContent = AGENT_CONFIG[key];
+        }
+      });
+
+      function buildWhatsAppUrl(message) {
+        return `https://wa.me/${AGENT_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
+      }
+
+      function formatRM(amount) {
+        return "RM " + Math.round(amount).toLocaleString("en-MY");
+      }
+
+      /* ----------------------------------------------------------------------
+         2. ATTACH STATIC WHATSAPP TRIGGERS & MOBILE MENU
+         ---------------------------------------------------------------------- */
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+      document.querySelectorAll(".wa-trigger").forEach((el) => {
+        const msg = el.getAttribute("data-wa-message") ||
+          `Hi ${AGENT_CONFIG.name} (${AGENT_CONFIG.ren}), I would like to inquire about landed properties.`;
+        el.setAttribute("href", buildWhatsAppUrl(msg));
+        el.setAttribute("target", "_blank");
+        el.setAttribute("rel", "noopener noreferrer");
+      });
+
+      const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        const isOpen = mobileMenu.classList.toggle("open");
+        mobileMenuBtn.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      document.querySelectorAll(".mobile-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("open");
+          mobileMenuBtn.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      /* ----------------------------------------------------------------------
+         3. REAL-TIME MALAYSIA HOME LOAN CALCULATOR
+         ---------------------------------------------------------------------- */
+      const priceInput = document.getElementById("priceInput");
+      const priceSlider = document.getElementById("priceSlider");
+      const dpRmInput = document.getElementById("dpRmInput");
+      const dpPercentInput = document.getElementById("dpPercentInput");
+      const dpSlider = document.getElementById("dpSlider");
+      const rateInput = document.getElementById("rateInput");
+      const rateSlider = document.getElementById("rateSlider");
+      const tenureInput = document.getElementById("tenureInput");
+      const tenureSlider = document.getElementById("tenureSlider");
+      const firstHomeToggle = document.getElementById("firstHomeToggle");
+
+      // Outputs
+      const monthlyInstallmentEl = document.getElementById("monthlyInstallment");
+      const selectedPropertyNoteEl = document.getElementById("selectedPropertyNote");
+      const principalBarEl = document.getElementById("principalBar");
+      const interestBarEl = document.getElementById("interestBar");
+      const principalPctEl = document.getElementById("principalPct");
+      const interestPctEl = document.getElementById("interestPct");
+      const ltvLabelEl = document.getElementById("ltvLabel");
+      const loanAmountOutEl = document.getElementById("loanAmountOut");
+      const dpPctOutEl = document.getElementById("dpPctOut");
+      const downPaymentOutEl = document.getElementById("downPaymentOut");
+      const legalDutyOutEl = document.getElementById("legalDutyOut");
+      const entryCostOutEl = document.getElementById("entryCostOut");
+      const totalInterestOutEl = document.getElementById("totalInterestOut");
+      const minIncomeOutEl = document.getElementById("minIncomeOut");
+      const calcWhatsAppBtn = document.getElementById("calcWhatsAppBtn");
+
+      let activeListingContext = "";
+
+      // Malaysia Tiered Legal Fee & Stamp Duty Estimator
+      function estimateMalaysiaEntryCosts(propertyPrice, loanAmount, isFirstHome) {
+        // Malaysia Solicitors' Remuneration Order (SRO) tiered legal fee estimation
+        function calcTieredLegalFee(val) {
+          if (val <= 0) return 0;
+          let fee = 0;
+          const tier1 = Math.min(val, 500000);
+          fee += tier1 * 0.0125;
+          if (val > 500000) {
+            const tier2 = Math.min(val - 500000, 7000000);
+            fee += tier2 * 0.01;
+          }
+          return Math.max(fee, 500);
+        }
+
+        // MOT Stamp Duty (1% first 100k, 2% next 400k, 3% next 500k, 4% above 1M)
+        function calcMotStampDuty(val) {
+          if (isFirstHome && val <= 500000) return 0;
+          let duty = 0;
+          if (val > 0) duty += Math.min(val, 100000) * 0.01;
+          if (val > 100000) duty += Math.min(val - 100000, 400000) * 0.02;
+          if (val > 500000) duty += Math.min(val - 500000, 500000) * 0.03;
+          if (val > 1000000) duty += (val - 1000000) * 0.04;
+          return duty;
+        }
+
+        // Loan Agreement Stamp Duty (0.5% of loan amount, exempt for first home <= 500k)
+        const loanStampDuty = (isFirstHome && propertyPrice <= 500000) ? 0 : loanAmount * 0.005;
+        const spaLegalFee = calcTieredLegalFee(propertyPrice);
+        const loanLegalFee = calcTieredLegalFee(loanAmount);
+        const motStampDuty = calcMotStampDuty(propertyPrice);
+        const disbursementsAndValuation = propertyPrice * 0.0045; // Est. valuation + disbursements
+
+        return spaLegalFee + loanLegalFee + motStampDuty + loanStampDuty + disbursementsAndValuation;
+      }
+
+      function updateCalculator() {
+        const price = Math.max(50000, Number(priceInput.value) || 380000);
+        const dpPct = Math.min(90, Math.max(0, Number(dpPercentInput.value) || 0));
+        const rate = Math.max(0.1, Number(rateInput.value) || 4.10);
+        const tenure = Math.min(35, Math.max(1, Number(tenureInput.value) || 35));
+        const isFirstHome = firstHomeToggle.checked;
+
+        const downPayment = Math.round(price * (dpPct / 100));
+        dpRmInput.value = downPayment;
+        const loanAmount = Math.max(0, price - downPayment);
+        const ltvPct = Math.round(100 - dpPct);
+
+        const monthlyRate = rate / 100 / 12;
+        const totalMonths = tenure * 12;
+
+        let monthlyInstallment = 0;
+        if (loanAmount > 0) {
+          if (monthlyRate === 0) {
+            monthlyInstallment = loanAmount / totalMonths;
+          } else {
+            const factor = Math.pow(1 + monthlyRate, totalMonths);
+            monthlyInstallment = (loanAmount * (monthlyRate * factor)) / (factor - 1);
+          }
+        }
+
+        const totalRepayment = monthlyInstallment * totalMonths;
+        const totalInterest = Math.max(0, totalRepayment - loanAmount);
+        const legalAndStampDuty = estimateMalaysiaEntryCosts(price, loanAmount, isFirstHome);
+        const totalUpfrontCash = downPayment + legalAndStampDuty;
+        const suggestedNetIncome = monthlyInstallment / 0.60; // 60% DSR guideline
+
+        // Update UI Text
+        monthlyInstallmentEl.innerHTML = `${formatRM(monthlyInstallment)} <span>/ month</span>`;
+
+        const prefixNote = activeListingContext ? `${activeListingContext} • ` : "";
+        selectedPropertyNoteEl.textContent =
+          `${prefixNote}${ltvPct}% loan margin (${formatRM(loanAmount)}) over ${tenure} years at ${rate.toFixed(2)}% p.a.`;
+
+        loanAmountOutEl.textContent = formatRM(loanAmount);
+        ltvLabelEl.textContent = `${ltvPct}%`;
+        downPaymentOutEl.textContent = formatRM(downPayment);
+        dpPctOutEl.textContent = `${dpPct}%`;
+        legalDutyOutEl.textContent = formatRM(legalAndStampDuty);
+        entryCostOutEl.textContent = formatRM(totalUpfrontCash);
+        totalInterestOutEl.textContent = formatRM(totalInterest);
+        minIncomeOutEl.textContent = `${formatRM(suggestedNetIncome)}+`;
+
+        // Update Principal vs Interest Visual Bar
+        const totalPaid = loanAmount + totalInterest;
+        const principalShare = totalPaid > 0 ? Math.round((loanAmount / totalPaid) * 100) : 100;
+        const interestShare = 100 - principalShare;
+        principalBarEl.style.width = `${principalShare}%`;
+        interestBarEl.style.width = `${interestShare}%`;
+        principalPctEl.textContent = `${principalShare}%`;
+        interestPctEl.textContent = `${interestShare}%`;
+
+        // Sync active pill states
+        document.querySelectorAll("#dpPills .pill-btn").forEach((btn) => {
+          btn.classList.toggle("active", Number(btn.dataset.dp) === Math.round(dpPct));
+        });
+        document.querySelectorAll("#tenurePills .pill-btn").forEach((btn) => {
+          btn.classList.toggle("active", Number(btn.dataset.tenure) === tenure);
+        });
+
+        // Build Pre-filled WhatsApp Summary Message
+        const waSummary =
+          `Hi ${AGENT_CONFIG.name} (${AGENT_CONFIG.ren}), I used your Malaysia Home Loan Calculator and would like to check my loan eligibility:\n\n` +
+          `• Property Price: ${formatRM(price)}\n` +
+          `• Down Payment: ${dpPct}% (${formatRM(downPayment)})\n` +
+          `• Loan Amount: ${formatRM(loanAmount)}\n` +
+          `• Tenure & Rate: ${tenure} years @ ${rate.toFixed(2)}% p.a.\n` +
+          `• Est. Monthly Installment: ${formatRM(monthlyInstallment)}/mo\n` +
+          `• First-Time Buyer Exemption: ${isFirstHome ? "Yes" : "No"}\n\n` +
+          `Could you advise on suitable landed properties & bank DSR options?`;
+
+        calcWhatsAppBtn.setAttribute("href", buildWhatsAppUrl(waSummary));
+      }
+
+      // Bind Slider <-> Input Synchronization
+      function bindPair(slider, input, clearContext = false) {
+        slider.addEventListener("input", () => {
+          input.value = slider.value;
+          if (clearContext) activeListingContext = "";
+          updateCalculator();
+        });
+        input.addEventListener("input", () => {
+          const val = Number(input.value);
+          if (!Number.isNaN(val)) {
+            slider.value = Math.min(Number(slider.max), Math.max(Number(slider.min), val));
+          }
+          if (clearContext) activeListingContext = "";
+          updateCalculator();
+        });
+      }
+
+      // Synchronize custom RM down payment input with percentage & slider
+      dpRmInput.addEventListener("input", () => {
+        const price = Math.max(50000, Number(priceInput.value) || 380000);
+        const rmVal = Math.min(price * 0.9, Math.max(0, Number(dpRmInput.value) || 0));
+        const derivedPct = Number(((rmVal / price) * 100).toFixed(1));
+        dpPercentInput.value = derivedPct;
+        dpSlider.value = Math.min(50, derivedPct);
+        updateCalculator();
+      });
+
+      bindPair(priceSlider, priceInput, true);
+      bindPair(dpSlider, dpPercentInput, false);
+      bindPair(rateSlider, rateInput, false);
+      bindPair(tenureSlider, tenureInput, false);
+      firstHomeToggle.addEventListener("change", updateCalculator);
+
+      // Quick Pills for Down Payment & Tenure
+      document.querySelectorAll("#dpPills .pill-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const dp = btn.dataset.dp;
+          dpPercentInput.value = dp;
+          dpSlider.value = dp;
+          updateCalculator();
+        });
+      });
+
+      document.querySelectorAll("#tenurePills .pill-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const t = btn.dataset.tenure;
+          tenureInput.value = t;
+          tenureSlider.value = t;
+          updateCalculator();
+        });
+      });
+
+      // "Calculate" Buttons on Featured Listings -> Auto-load into Calculator
+      document.querySelectorAll(".load-calc-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const targetPrice = btn.getAttribute("data-price");
+          const label = btn.getAttribute("data-label");
+          priceInput.value = targetPrice;
+          priceSlider.value = targetPrice;
+          activeListingContext = label;
+          updateCalculator();
+          document.getElementById("calculator").scrollIntoView({ behavior: "smooth" });
+        });
+      });
+
+      // Initialize Calculator on load
+      updateCalculator();
+
+      /* ----------------------------------------------------------------------
+         4. FAQ ACCORDION INTERACTIVITY
+         ---------------------------------------------------------------------- */
+      document.querySelectorAll(".faq-question").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const item = btn.parentElement;
+          const answer = item.querySelector(".faq-answer");
+          const isActive = item.classList.contains("active");
+
+          // Close other items for clean accordion behavior
+          document.querySelectorAll(".faq-item").forEach((other) => {
+            other.classList.remove("active");
+            other.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+            other.querySelector(".faq-answer").style.maxHeight = null;
+          });
+
+          if (!isActive) {
+            item.classList.add("active");
+            btn.setAttribute("aria-expanded", "true");
+            answer.style.maxHeight = answer.scrollHeight + "px";
+          }
+        });
+      });
+
+      /* ----------------------------------------------------------------------
+         5. INTERACTIVE CONSULTATION BUILDER CHIPS
+         ---------------------------------------------------------------------- */
+      const customBuilderWaBtn = document.getElementById("customBuilderWaBtn");
+
+      function updateBuilderWhatsApp() {
+        const clientType = document.querySelector("#clientTypeChips .chip.selected")?.dataset.value || "Home Buyer";
+        const area = document.querySelector("#areaChips .chip.selected")?.dataset.value || "Teluk Intan, Langkap or Kampar";
+        const budget = document.querySelector("#budgetChips .chip.selected")?.dataset.value || "RM 300k – RM 450k";
+
+        const msg =
+          `Hi ${AGENT_CONFIG.name} (${AGENT_CONFIG.ren}), I'd like to arrange a landed property consultation:\n\n` +
+          `• Profile: ${clientType}\n` +
+          `• Preferred Area: ${area}\n` +
+          `• Target Budget: ${budget}\n\n` +
+          `Please share available landed listings or advise on the next steps!`;
+
+        customBuilderWaBtn.setAttribute("href", buildWhatsAppUrl(msg));
+      }
+
+      function setupChipGroup(groupId) {
+        const container = document.getElementById(groupId);
+        container.querySelectorAll(".chip").forEach((chip) => {
+          chip.addEventListener("click", () => {
+            container.querySelectorAll(".chip").forEach((c) => c.classList.remove("selected"));
+            chip.classList.add("selected");
+            updateBuilderWhatsApp();
+          });
+        });
+      }
+
+      setupChipGroup("clientTypeChips");
+      setupChipGroup("areaChips");
+      setupChipGroup("budgetChips");
+      updateBuilderWhatsApp();
+    })();
+  </script>
+</body>
+</html>
